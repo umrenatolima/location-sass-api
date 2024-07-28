@@ -1,0 +1,23 @@
+{
+	"name": "gym-sass-api",
+	"version": "1.0.0",
+	"description": "A gym sass api with features inspired by gympass",
+	"main": "index.js",
+	"scripts": {
+		"start:dev": "tsx watch src/server.ts",
+		"start": "node build/server.js",
+		"build": "tsup src --out-dir build"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/node": "^22.0.0",
+		"tsup": "^8.2.3",
+		"tsx": "^4.16.2",
+		"typescript": "^5.5.4"
+	},
+	"dependencies": {
+		"fastify": "^4.28.1"
+	}
+}

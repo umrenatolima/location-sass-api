@@ -8,7 +8,9 @@
     "start": "node build/server.js",
     "build": "tsup src --out-dir build",
     "lint": "eslint \"./**/*.{js,jsx,ts,tsx}\"",
-    "lint:fix": "eslint \"./**/*.{js,jsx,ts,tsx}\" --fix"
+    "lint:fix": "eslint \"./**/*.{js,jsx,ts,tsx}\" --fix",
+    "prisma:migrate": "npx prisma migrate dev",
+    "prisma:studio": "npx prisma studio"
   },
   "keywords": [],
   "author": "",

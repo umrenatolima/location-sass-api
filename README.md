@@ -8,7 +8,7 @@ This application is built with nodejs, typescript, fastify, prisma ORM, PostgreS
 
 ## Functional Requirements
 
-- [] Should be able to register a new account
+- [x] Should be able to register a new account
 - [] Should be able to authenticate an user
 - [] Should be able to fetch profile of an authenticated user
 - [] Should be able to fetch number of check-ins completed by the authenticated user
@@ -21,7 +21,7 @@ This application is built with nodejs, typescript, fastify, prisma ORM, PostgreS
 
 ## Business Rules
 
-- [] User should not be able to register with an email that is already in use
+- [x] User should not be able to register with an email that is already in use
 - [] User should not be able to check-in twice on the same day
 - [] User should not be able to check-in at a gym that is farther than 100m away
 - [] Should not be able to validate a check-in after 20min
@@ -30,7 +30,7 @@ This application is built with nodejs, typescript, fastify, prisma ORM, PostgreS
 
 ## Non-Functional Requirements
 
-- [] User password should be crytographed
+- [x] User password should be crytographed
 - [] Data should be stored in a PostgreSQL DB
 - [] All data list should be paginated by 20 items per page
 - [] User should be authenticated via JWT

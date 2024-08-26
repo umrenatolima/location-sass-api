@@ -26,8 +26,8 @@ describe('get-user-profile service', () => {
     expect(user.email).toEqual(createdUser.email);
   });
 
-  it('should not be able to get a user profile with non existant id', () => {
-    expect(
+  it('should not be able to get a user profile with non existant id', async () => {
+    await expect(() =>
       sut.execute({ userId: 'rains-of-castemere' }),
     ).rejects.toBeInstanceOf(ResourceNotFoundError);
   });

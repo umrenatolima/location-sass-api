@@ -36,7 +36,7 @@ describe('authenticate service', () => {
       password: 'direwolves',
     };
 
-    expect(() => sut.execute(login)).rejects.toBeInstanceOf(
+    await expect(() => sut.execute(login)).rejects.toBeInstanceOf(
       InvalidCredentialsError,
     );
   });
@@ -53,7 +53,7 @@ describe('authenticate service', () => {
       password: 'wrong-password',
     };
 
-    expect(() => sut.execute(login)).rejects.toBeInstanceOf(
+    await expect(() => sut.execute(login)).rejects.toBeInstanceOf(
       InvalidCredentialsError,
     );
   });

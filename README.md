@@ -9,8 +9,8 @@ This application is built with nodejs, typescript, fastify, prisma ORM, PostgreS
 ## Functional Requirements
 
 - [x] Should be able to register a new account
-- [] Should be able to authenticate an user
-- [] Should be able to fetch profile of an authenticated user
+- [x] Should be able to authenticate an user
+- [x] Should be able to fetch profile of an authenticated user
 - [] Should be able to fetch number of check-ins completed by the authenticated user
 - [] User should be able to fetch check-in history
 - [] User should be able to search for nearby gyms
@@ -31,6 +31,6 @@ This application is built with nodejs, typescript, fastify, prisma ORM, PostgreS
 ## Non-Functional Requirements
 
 - [x] User password should be crytographed
-- [] Data should be stored in a PostgreSQL DB
+- [x] Data should be stored in a PostgreSQL DB
 - [] All data list should be paginated by 20 items per page
 - [] User should be authenticated via JWT

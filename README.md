@@ -23,7 +23,7 @@ This application is built with nodejs, typescript, fastify, prisma ORM, PostgreS
 
 - [x] User should not be able to register with an email that is already in use
 - [x] User should not be able to check-in twice on the same day
-- [] User should not be able to check-in at a gym that is farther than 100m away
+- [x] User should not be able to check-in at a gym that is farther than 100m away
 - [] Should not be able to validate a check-in after 20min
 - [] Should only be able to validate a check-in if user is an ADMIN
 - [] Should only be able to register a new gym if user is an ADMIN
